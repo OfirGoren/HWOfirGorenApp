@@ -78,7 +78,7 @@ public class GameManager {
 
         for (Field fld : fieldList) {
             String fieldName = fld.getName();
-            if (fieldName.contains("card")) {
+            if (fieldName.contains("img_card_")) {
                 try {
 
                     resourceId = fld.getInt(null);
@@ -90,6 +90,7 @@ public class GameManager {
                 }
             }
         }
+
         return allCards;
     }
 

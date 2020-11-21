@@ -61,7 +61,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:padding="5dp"
-            android:src="@drawable/img_parchment" />
+            android:src="@drawable/img_begin_card" />
 
         <ImageView
             android:id="@+id/game_IMG_card_player_two"
@@ -69,7 +69,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:padding="5dp"
-            android:src="@drawable/img_parchment" />
+            android:src="@drawable/img_begin_card" />
 
     </LinearLayout>
 
