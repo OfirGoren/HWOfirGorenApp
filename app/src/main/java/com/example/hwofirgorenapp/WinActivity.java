@@ -18,7 +18,7 @@ public class WinActivity extends AppCompatActivity {
     private Intent intent;
     private int winScore;
     private String winName;
-    private String msgDrawGame = "Tie In The \n Game";
+    private String msgTieGame = "Tie In The \n Game";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class WinActivity extends AppCompatActivity {
             win_LBL_name_title.setVisibility(View.GONE);
             win_LBL_score_title.setVisibility(View.GONE);
             win_LBL_win_score.setVisibility(View.GONE);
-            win_LBL_win_name.setText(msgDrawGame);
+            win_LBL_win_name.setText(msgTieGame);
             win_LBL_win_name.setGravity(Gravity.LEFT);
 
         } else {
