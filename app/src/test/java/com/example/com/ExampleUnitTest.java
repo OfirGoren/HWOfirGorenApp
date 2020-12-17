@@ -1,4 +1,4 @@
-package com.example.hwofirgorenapp;
+package com.example.com;
 
 import org.junit.Test;
 

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/blue_darker"
     android:padding="10dp"
-    tools:context=".WinActivity">
+    tools:context=".Activity.WinActivity">
 
 
     <TextView
@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:fontFamily="@font/itim"
         android:text="Winner"
         android:textColor="@color/very_soft_orange"
         android:textSize="80sp"
@@ -51,6 +52,7 @@
                     android:id="@+id/win_LBL_name_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/itim"
                     android:text="Name:"
                     android:textColor="@color/bright_orange"
                     android:textSize="40sp"
@@ -62,6 +64,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/itim"
                     android:text=""
                     android:textColor="@color/bright_orange"
                     android:textSize="40sp"
@@ -82,6 +85,7 @@
                     android:id="@+id/win_LBL_score_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/itim"
                     android:text="Score:"
                     android:textColor="@color/bright_orange"
                     android:textSize="40sp"
@@ -93,6 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/itim"
                     android:text=""
                     android:textColor="@color/bright_orange"
                     android:textSize="40sp"

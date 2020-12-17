@@ -1,18 +1,18 @@
-package com.example.hwofirgorenapp;
+package com.example.com.Objects;
 
 public class Cards {
     public static final int NUM_CARDS = 52;
     private int numCard;
-    private int resourceId;
+    private String nameCard;
 
 
     public Cards() {
 
     }
 
-    public Cards(int numCard, int sourceId) {
+    public Cards(int numCard, String nameCard) {
         this.numCard = numCard;
-        this.resourceId = sourceId;
+        this.nameCard = nameCard;
     }
 
     public int getNumCard() {
@@ -23,8 +23,8 @@ public class Cards {
         this.numCard = numCard;
     }
 
-    public int getResourceId() {
-        return resourceId;
+    public String getNameCard() {
+        return nameCard;
     }
 
 
